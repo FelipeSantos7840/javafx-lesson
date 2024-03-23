@@ -1,0 +1,14 @@
+.label{
+    -fx-font-size: 22px;
+    -fx-text-fill: "white";
+    -fx-alignment: "center";
+}
+
+.root{
+    -fx-background-color: #010321;
+}
+
+#titleid{
+    -fx-text-fill: #fa0606;
+}
+
