@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.felipesantos.wksjavafx.SceneController">
+   <children>
+      <Button layoutX="124.0" layoutY="371.0" mnemonicParsing="false" onAction="#switchToSelectionScene" prefHeight="25.0" prefWidth="122.0" text="MENU" />
+      <Label layoutX="81.0" layoutY="79.0" text="FELIPE DOS SANTOS">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
