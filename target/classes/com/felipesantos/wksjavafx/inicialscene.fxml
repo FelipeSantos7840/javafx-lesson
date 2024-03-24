@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.felipesantos.wksjavafx.InicialScene">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="350.0" stroke="BLACK" strokeType="INSIDE" width="600.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.8104265402843602" startX="0.13744075829383884">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.10920000076293945" green="0.4902600049972534" blue="0.8399999737739563" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5572916865348816" green="0.3645833432674408" blue="0.75" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="192.0" layoutY="14.0" text="LOGIN SCENE" textAlignment="CENTER" textFill="#141414">
+         <font>
+            <Font name="Dubai Medium" size="36.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.33" contrast="0.26" saturation="0.01" />
+         </effect>
+      </Label>
+      <TextField fx:id="text" layoutX="226.0" layoutY="209.0" promptText="Username..." />
+      <Button fx:id="loginid" layoutX="250.0" layoutY="271.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" text="LOGIN">
+         <effect>
+            <ColorAdjust brightness="0.99" />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8104265402843602" startX="0.13744075829383884">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.429824560880661" green="0.705847978591919" blue="0.9473684430122375" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
